@@ -1,0 +1,152 @@
+/* General */
+    /* Fonts reference */
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Oleo Script';
+    src: url('assets/fonts/OleoScript-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+    /* Tags and classes */
+* {font-family:'Roboto', sans-serif;}
+body {margin:0; padding:0;}
+h1, h2 {font-family:'Oleo Script', cursive;}
+p {line-height:28px}
+a {text-decoration:none; color:inherit;}
+.container {width:900px; height:inherit;}
+
+    /* flexbox classes */
+.flex {display:flex}
+.center {justify-content:center}
+.between {justify-content:space-between}
+.end {justify-content:end;}
+.col-center {flex-direction:column;align-items:center;}
+
+/* Sections */
+    /* 1 */
+#topbar {
+    background-color:#2c2c2c;
+    color:#8a8a8c;
+}
+
+    #logo {
+        line-height:45px;
+        padding:0px 20px;
+    }
+
+        #logo i {
+            font-size:22px;
+            color:#7bbc4f;
+        }
+
+        #social i {
+            line-height:45px;
+            padding:0px 5px;
+        }
+    /* 2 */
+#product-view {
+    background-color:#258a96;
+    color:#d6f3f6;
+}
+
+    #video {
+        flex:1;
+        padding:50px 5px 25px 5px;
+    }
+
+    #about-video {
+        flex:1;
+        padding:15px 5px 25px 5px;
+    }
+
+        #about-video button {
+            background-color:#498280;
+            border:1px solid #90afb1;
+            color:inherit;
+            border-radius:5px;
+            padding:10px 25px;
+        }
+
+        #shopping-cart {
+            margin:0px 5px;
+            font-size:24px;
+        }
+
+        #button-word {line-height:24px}
+    /* 3 */
+#product-info {
+    background-color:#f2f2f2;
+    color:#4c4c4c;
+}
+
+    #triplex div {
+        flex:1;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding:20px;
+    }
+        #triplex div img {height:100px}
+
+
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+ @font-face {
+    font-family: 'FontAwesome';
+    src: url('assets/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+content: "\f19c";
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-google-plus:before {
+    content: "\f0d5";
+}
+
+.fa-pinterest:before {
+    content: "\f0d2";
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+
+.fa-github:before {
+    content: "\f09b";
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+}
